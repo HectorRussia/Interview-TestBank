@@ -1,0 +1,19 @@
+8 Pattern ที่ถูกถามบ่อย
+
+Singleton
+
+Factory Method / Simple Factory
+
+Strategy
+
+Observer
+
+Decorator
+
+Adapter
+
+Facade
+
+Repository (สาย backend ชอบถาม)
+
+แล้วท้ายสุดมี Bonus: SOLID Principle (ไม่ใช่ pattern แต่ถามบ่อยมาก)
