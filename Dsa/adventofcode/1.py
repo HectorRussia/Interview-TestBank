@@ -12,20 +12,20 @@ with p.open("r",encoding="utf-8") as f:
 # print(arr)
 
 
-pos = 50
+position = 50
 count = 0
 for move in arr:
 
-    dir = move[0]
+    direction = move[0]
     steps = int(move[1:])
 
-    if dir == "L":
-        pos = (pos + steps) % 100
+    if direction == "L":
+        position = (position + steps) % 100
         count+1
-    elif dir == "R":
-        pos = (pos - steps) % 100
+    elif direction == "R":
+        position = (position - steps) % 100
         count+1
-    if pos == 0:
+    if position == 0:
         count += 1
 
 print(count)
