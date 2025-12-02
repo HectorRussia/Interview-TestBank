@@ -21,10 +21,10 @@ for move in arr:
 
     if dir == "L":
         pos = (pos + steps) % 100
-        count+1
+        count += 1
     elif dir == "R":
         pos = (pos - steps) % 100
-        count+1
+        count += 1
     if pos == 0:
         count += 1
 
